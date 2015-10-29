@@ -1,0 +1,1 @@
+# OCR receipteat application
