@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+	
+    <LinearLayout
+        android:id="@+id/chooseoption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_krmission"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button2"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="한글 과제명" />
+
+        <Button
+            android:id="@+id/btn_orgmisson"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button1"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="주관 기관명" />
+
+        <Button
+            android:id="@+id/btn_orgname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button2"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="주관 과제명" />
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/koreanmissionlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chooseoption"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" >
+
+        <EditText
+            android:id="@+id/edit_krmission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_savekrmission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button1"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text="저장" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/koreanmissionlayout"
+        android:background="@drawable/bg_list"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/koreanmissionlist"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp" >
+        </ListView>
+
+    </LinearLayout>
+    
+</RelativeLayout>

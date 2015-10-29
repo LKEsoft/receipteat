@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="AaptCrash" severity="warning" />
+    <issue id="AccidentalOctal" severity="warning" />
+    <issue id="AndroidGradlePluginVersion" severity="warning" />
+    <issue id="ByteOrderMark" severity="warning" />
+    <issue id="DuplicateActivity" severity="warning" />
+    <issue id="DuplicateDefinition" severity="warning" />
+    <issue id="DuplicateIds" severity="warning" />
+    <issue id="EnforceUTF8" severity="warning" />
+    <issue id="GradleCompatible" severity="warning" />
+    <issue id="GradleGetter" severity="warning" />
+    <issue id="GradleIdeError" severity="warning" />
+    <issue id="GridLayout" severity="warning" />
+    <issue id="IncludeLayoutParam" severity="warning" />
+    <issue id="InvalidPackage" severity="warning" />
+    <issue id="LocalSuppress" severity="warning" />
+    <issue id="MangledCRLF" severity="warning" />
+    <issue id="ManifestTypo" severity="warning" />
+    <issue id="MissingPrefix" severity="warning" />
+    <issue id="MissingQuantity" severity="warning" />
+    <issue id="MissingTranslation" severity="warning" />
+    <issue id="MockLocation" severity="warning" />
+    <issue id="MultipleUsesSdk" severity="warning" />
+    <issue id="NewApi" severity="warning" />
+    <issue id="Orientation" severity="warning" />
+    <issue id="Override" severity="warning" />
+    <issue id="ReferenceType" severity="warning" />
+    <issue id="RequiredSize" severity="warning" />
+    <issue id="ResourceAsColor" severity="warning" />
+    <issue id="ResourceCycle" severity="warning" />
+    <issue id="ResourceName" severity="warning" />
+    <issue id="RtlCompat" severity="warning" />
+    <issue id="StringShouldBeInt" severity="warning" />
+    <issue id="Suspicious0dp" severity="warning" />
+    <issue id="UniquePermission" severity="warning" />
+    <issue id="ValidFragment" severity="warning" />
+    <issue id="WrongManifestParent" severity="warning" />
+</lint>
